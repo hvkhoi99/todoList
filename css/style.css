@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    width: 500px;
+    margin: 50px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    height: 45px;
+    background: #F9F9F9;
+    padding-top: 10px;
+}
+
+.fa-close {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    color: black;
+}
+
+.fa-check {
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: black;
+}
+
+.span-work-name {
+    margin-left: 30px;
+}
+
+.add {
+    background: red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.add h5 {
+    color: white;
+}
+
+main .add .btn-group input.form-control {
+    width: 400px;
+}
+
+ul li.xong {
+    background: #888888;
+    text-decoration: line-through;
+    color: white;
+}
+
+.check:hover, .del:hover {
+    cursor: pointer;
+}
